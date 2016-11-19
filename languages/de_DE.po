@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Language: de_DE\n"
+"X-Generator: FB-google-drive-to-json-po-mo 1.0.0\n"
+
+msgid "Select a hotel"
+msgstr ""
+
+msgid "Arrival"
+msgstr ""
+
+msgid "Departure"
+msgstr ""
+
+msgid "View Your Booking"
+msgstr ""
+

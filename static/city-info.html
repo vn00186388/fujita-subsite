@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bare</title>
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/png" href="../img/icons/favicon.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="#{appName}">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content=""><link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="../core.css">
+  </head>
+  <body>
+    <div class="seo-bar js_seo-bar">
+      <h1>Yokohama Sakuragicho Washington Hotel</h1><span>Hotel from Yokohama Sakuragi-cho Station 1-minute walk</span>
+    </div>
+    <header class="header js_header">
+      <ul class="header__utility version-desktop">
+        <li class="header__utility-item header__utility-logo-whg logo-whg"><a class="logo-whg__link" href="#"><img src="../img/logo-whg-white.png"></a></li>
+        <li class="header__utility-item header__utility-lang lang"><a class="lang__current" href="#">English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="lang__list lang__ul">
+            <li class="lang__item"><a href="#">English</a></li>
+            <li class="lang__item"><a href="#">ThaiLand</a></li>
+            <li class="lang__item"><a href="#">philippines</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="header__qs js_header__qs">
+        <div class="header__qs-close version-mobile">
+          <button class="btn-close js_btn-close"></button>
+        </div>
+        <div class="header__qs-logo-wh version-mobile"><a href="#"><img src="../img/logo-wh-white.png"></a></div>
+        <form class="header__qs-form qs-form js_qs-form" target="dispoprice" name="js__fbqs__form">
+          <input class="js_promo" type="hidden" name="showPromotions" value="">
+          <input class="js__fbqs__locale" type="hidden" name="locale" value="en">
+          <input class="js_cluster" type="hidden" name="Clusternames" value="">
+          <div class="booking__formstyle" style="text-align:center"><span style="display: none;text-align:center">
+              <select class="fbqs__checkin-month js__fbqs__checkin-month" name="frommonth">
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+                <option value="01">Jan</option>
+                <option value="02">Feb</option>
+                <option value="03">Mar</option>
+                <option value="04">Apr</option>
+                <option value="05">May</option>
+                <option value="06">Jun</option>
+                <option value="07">Jul</option>
+                <option value="08">Aug</option>
+                <option value="09">Sept</option>
+              </select>
+              <select class="fbqs__checkin-day js__fbqs__checkin-day" name="fromday">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <select class="fbqs__checkin-year js__fbqs__checkin-year" name="fromyear" onchange="update_departure();">
+                <option value="2016" selected="">2016</option>
+                <option value="2017">2017</option>
+              </select></span>
+            <input class="fbqs__checkin js__fbqs__checkin" id="fbqs__checkin" type="hidden" readonly=""><span style="display:none;text-align:center">
+              <select class="fbqs__checkout-month js__fbqs__checkout-month" name="tomonth">
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+                <option value="01">Jan</option>
+                <option value="02">Feb</option>
+                <option value="03">Mar</option>
+                <option value="04">Apr</option>
+                <option value="05">May</option>
+                <option value="06">Jun</option>
+                <option value="07">Jul</option>
+                <option value="08">Aug</option>
+                <option value="09">Sept</option>
+              </select>
+              <select class="fbqs__checkout-day js__fbqs__checkout-day" name="today">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <select class="fbqs__checkout-year js__fbqs__checkout-year" name="toyear" onchange="update_departure();">
+                <option value="2016" selected="">2016</option>
+                <option value="2017">2017</option>
+              </select></span>
+            <input class="fbqs__checkout js__fbqs__checkout" id="fbqs__checkout" type="hidden" readonly="">
+          </div>
+          <div class="qs__field qs__select qs__field-sites">
+            <label class="qs__label" for="qs__sites">Select a hotel</label>
+            <select class="qs__sites js_qs__sites" id="qs__sites" name="Hotelnames"></select>
+          </div>
+          <div class="qs__field qs__datepicker qs__field-checkin">
+            <label class="qs__label" for="qs__checkin">Arrival</label>
+            <input class="qs__checkin js_qs__checkin">
+          </div>
+          <div class="qs__field qs__datepicker qs__field-checkout">
+            <label class="qs__label" for="qs__checkout">Departure</label>
+            <input class="qs__checkout js_qs__checkout">
+          </div>
+          <div class="qs__field qs__select qs__field-adults-child">
+            <label class="qs__label" for="qs__adults-child">Adult(s) / Child  (0-5 yrs old)</label>
+            <select class="qs__adults-child js_qs__adults-child" name="adulteresa">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="qs__field qs__input qs__field-promo-code">
+            <label class="qs__label version-desktop" for="qs__promo-code">Access code</label>
+            <input class="qs__promo-code" placeholder="Access code" name="AccessCode" type="password">
+          </div>
+          <div class="qs__field qs__submit qs__field-btn-submit">
+            <div class="qs__booking-btns b-layout"><a class="qs__btn-view layout-left js_qs__btn-view" href="http://thames.book-secure.com/00000001/032/023112/historyv3.phtml?Hotelnames=&amp;amp;langue=uk" target="_blank">View your booking</a><a class="qs__btn-cancel layout-right" href="javascript:;" onclick="hhotelFormCancel(document.js__fbqs__form);">Cancel</a></div>
+            <button class="btn qs__btn-submit" type="submit" onclick="hhotelDispoprice(this.form);">check availability</button>
+          </div>
+        </form>
+        <div class="header__qs-logo-whg version-mobile"><a href="#"><img src="../img/logo-whg-white.png"></a></div>
+      </div>
+      <div class="header__nav js_header__nav">
+        <div class="header__nav-close version-mobile">
+          <button class="btn-close js_btn-close"></button>
+        </div>
+        <div class="header__nav-logo-wh version-mobile"><a href="#"><img src="../img/logo-wh-blue.png"></a></div>
+        <nav class="header__nav-menu menu menu--primary">
+          <ul class="menu__ul menu--primary__ul">
+            <li class="menu-item"><a href="#">Guest rooms</a></li>
+            <li class="menu-item"><a href="#">Breakfast</a></li>
+            <li class="menu-item"><a href="#">Facilities</a></li>
+            <li class="menu-item"><a href="#">Offers</a></li>
+            <li class="menu-item"><a href="#">Gallery</a></li>
+            <li class="menu-item"><a href="#">Location</a></li>
+            <li class="menu-item"><a href="#">City info</a></li>
+            <li class="menu-item"><a href="#">FAQ & contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__nav-lang nav-lang center--table version-mobile"><span class="inner">Language:</span>
+          <ul class="nav-lang__ul">
+            <li class="nav-lang-item"><a class="nav-lang-link" href="#"><img src="../img/flags/en.png"></a></li>
+            <li class="nav-lang-item"><a class="nav-lang-link" href="#"><img src="../img/flags/ja.png"></a></li>
+            <li class="nav-lang-item"><a class="nav-lang-link" href="#"><img src="../img/flags/cn.png"></a></li>
+          </ul>
+        </div>
+        <div class="header__nav-logo-whg version-mobile"><a href="#"><img src="../img/logo-whg-ora.png"></a></div>
+      </div>
+      <div class="header--top b-layout">
+        <div class="header__ch-wrapper ch-wrapper ch-wrapper--right layout-right version-mobile">
+          <button class="btn btn-hotel-list js_btn-hotel-list">our hotels</button>
+        </div>
+        <div class="header__logo logo layout-middle"><a class="logo__link" href="/"><img class="logo__img version-mobile" src="../img/logo-wh-white.png"></a></div>
+      </div>
+      <div class="header--bottom b-layout version-mobile">
+        <div class="header__ch-wrapper ch-wrapper ch-wrapper--right layout-right">
+          <button class="btn btn-menu js_btn-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        </div>
+        <div class="header__ch-wrapper layout-middle">
+          <button class="btn btn-book js_btn-book">Book now</button>
+        </div>
+      </div>
+      <script type="text/javascript">window.allHotelsJsonUrl = 'http://fujita.dev/fujita-group/wp-json/fujita-group/v1/hotels/';</script>
+    </header>
+    <div class="slide-show js_slide-show">
+      <div class="slide__entry js_slide__entry" style="background: url('../img/slide_show/slide-show-1.jpg') center center no-repeat; background-size: cover"></div>
+      <div class="slide__entry js_slide__entry" style="background: url('../img/slide_show/slide-show-2.jpg') center center no-repeat; background-size: cover"></div>
+      <div class="slide__entry js_slide__entry" style="background: url('../img/slide_show/slide-show-3.jpg') center center no-repeat; background-size: cover"></div>
+    </div>
+    <main class="main-page main-location">
+      <div class="container">
+        <h3 class="main__title">CITY INFO</h3>
+        <div class="city-info">
+          <div class="city-info__places-of-interest">
+            <div class="city-info__places-of-interest__title">PLACES OF INTEREST</div>
+            <div class="city-info__places-of-interest__content"> <span class="city-info__places-of-interest__text">SEARCH BY INTEREST</span>
+              <ul class="city-info__places-of-interest__list"></ul>
+            </div>
+          </div>
+          <div class="city-info__detail-places">
+            <div class="city-info__detail-places__back"> <a class="js-city-info__detail-places__back--closed" href="#"> <i class="fa fa-angle-left" aria-hidden="true"> </i><span>PLACES OF INTEREST</span></a></div>
+            <div class="city-info__detail-places__title">ENTERTAINMENT</div>
+            <ul class="city-info__detail-places__list"></ul>
+          </div>
+          <div class="city-info__description"><img class="city-info__description__image" src="" alt="">
+            <div class="city-info__description__title"> </div>
+            <div class="city-info__description__content"> </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content__wrapper">
+          <div class="row">
+            <div class="col-xs-6 col-md-4 footer__nav">
+              <ul>
+                <li><a class="footer__nav_item" href="#">News</a></li>
+                <li><a class="footer__nav_item" href="#">Contact Us</a></li>
+                <li><a class="footer__nav_item" href="#">Sitemap</a></li>
+                <li><a class="footer__nav_item" href="#">Privacy Policy</a></li>
+                <li><a class="footer__nav_item" href="#">Credit</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-md-4 footer__address">
+              <ul>
+                <li class="footer__address_detail js_footer__address_detail"><span>1-8-3 Kanda Sakumacho, Chiyoda, Tokyo 101-0025, Japan</span></li>
+                <li class="footer__address__phone js_footer__address__phone"><i class="icon-phone"></i><span class="phone-text">Phone</span><span class="phone-number">+81 3-3255-3311</span></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <ul class="footer__social js_footer__social">
+                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a class="btn join-member" href="#">Join membership</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="hotels__list__wrapper hotels__list js_hotels__list">
+          <button class="btn btn-close js_btn-close"></button>
+          <div class="hotels__list__logo center"><img src="../img/logo-whg-white.png" alt="Hotel logo"></div>
+          <div class="hotels__list clearfix js_hotels__list">
+            <div class="col-sm-12 col-md-4">
+              <ul class="hotels__list__group-area">Metropolitan Area/Tokyo
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <ul class="hotels__list__group-area">Hokkaido
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+              </ul>
+              <ul class="hotels__list__group-area">Kinki/Chuoku
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+              </ul>
+              <ul class="hotels__list__group-area">Koushinetsu
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-4"> 
+              <ul class="hotels__list__group-area">Tohoku
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+              </ul>
+              <ul class="hotels__list__group-area">Kyusyu/Okinawa
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="hotels__list__item"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ad__container">
+        <div class="ad-banner__content__wrapper">
+          <div class="row"><i class="fa fa-angle-left ad__slider-prev js_ad__slider-prev"></i><i class="fa fa-angle-right ad__slider-next js_ad__slider-next"></i>
+            <div class="ad__slider js_ad__slider">
+              <div class="ad__slider-entry">
+                <div class="col-xs-6">
+                  <p>Hotel Gracery Kyoto Sanjo 1 just opened!</p>
+                </div>
+                <div class="col-xs-6 center"><a class="btn visit-website" href="#">Visit website</a></div>
+              </div>
+              <div class="ad__slider-entry">
+                <div class="col-xs-6">
+                  <p>Hotel Gracery Kyoto Sanjo 2 just opened!</p>
+                </div>
+                <div class="col-xs-6 center"><a class="btn visit-website" href="#">Visit website</a></div>
+              </div>
+              <div class="ad__slider-entry">
+                <div class="col-xs-6">
+                  <p>Hotel Gracery Kyoto Sanjo 3 just opened!</p>
+                </div>
+                <div class="col-xs-6 center"><a class="btn visit-website" href="#">Visit website</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/core.js" defer></script>
+    <script src="../tpl-city-info/tpl-city-info.js" defer></script>
+  </body>
+</html>

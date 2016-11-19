@@ -1,0 +1,25 @@
+.highlight .slick-prev {
+  left: 5px;
+  z-index: 1; }
+
+.highlight .slick-prev::before {
+  color: #000; }
+
+.highlight .slick-next {
+  right: 5px;
+  z-index: 1; }
+
+.highlight .slick-next::before {
+  color: #000; }
+
+.highlight .slick-prev, .highlight .slick-next {
+  top: 60%; }
+
+.maker__hotel {
+  display: none; }
+
+@media screen and (min-width: 992px) {
+  .highlight .card__photo {
+    margin-top: 0px; }
+  .highlight .slick-prev, .highlight .slick-next {
+    top: 50%; } }
